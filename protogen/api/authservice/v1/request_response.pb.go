@@ -5,13 +5,12 @@ package authservice
 
 import (
 	fmt "fmt"
+	proto "github.com/gogo/protobuf/proto"
 	io "io"
 	math "math"
 	math_bits "math/bits"
 	reflect "reflect"
 	strings "strings"
-
-	proto "github.com/gogo/protobuf/proto"
 	v1 "github.com/temporalio/tcld/protogen/api/auth/v1"
 	v11 "github.com/temporalio/tcld/protogen/api/request/v1"
 )
